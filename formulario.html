@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <!-- PAGE INFO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="Images/logo.png">
+  <title>Anjos Na Terra</title>
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <a href="#"><img class="logo" src="Images/logo.png" alt="Logo doguinho"></a>
+      <!-- menu -->
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="index.html">Home</a></li>
+          <li><a class="title" href="quem-somos.html">Quem Somos</a></li>
+          <li><a class="title" href="nossos-anjos.html">Nossos Anjos</a></li>
+          <li><a class="title" href="formulario.html">Formulário</a></li>
+        </ul>
+      </div>
+      <!-- /menu -->
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="section-form">
+      <h2 class="conteudo-form center">Adoção</h2>
+      <div class="container">
+        <p>1. O adotante faz a escolha entre um gatinho ou cachorro que está para adoção;</p>
+        <p>2. Você terá que preencher um formulário (termo de responsabilidade);</p>
+        <p>3. São feitas videochamadas para checagem em sua casa/apto, se tem telas nas janelas ou alguma outra rota de
+          fuga;</p>
+        <p>4. Se o adotante tem mesmo condições ou não de estar adotando;</p>
+        <p>5. O adotante recebe uma visita em sua casa/apto para acompanhamento de como o animal está em questão de
+          adaptação;</p>
+        <p>6. Em caso do animal não se adaptar é feito o recolhimento e o gato/cão são trazidos de volta para ONG e é
+          refeito o mesmo processo com outro adotante.</p>
+      </div>
+
+      <form action="https://formsubmit.co/anjosnaterraemacao@gmail.com" method="post">
+        <input type="text" name="name" placeholder="Nome:" required>
+        <input type="text" name="instagram" placeholder="Instagram:" required>
+        <input type="text" name="endereco" placeholder="Endereço:" required>
+        <input type="text" name="cidadade" placeholder="Cidade/Uf:" required>
+        <input type="tel" name="telefone" placeholder="Telefone:" required>
+        <input type="email" name="email" placeholder="E-Mail:" required>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
+        <button class="button" type="submit">Enviar</button>
+      </form>
+
+    </section>
+  </main>
+
+  <footer>
+    <img src="Images/logo.png" alt="logo">
+    <div class="content-footer">
+      <p>Contato:<br>+55 11 97185-9399</p>
+      <p>Endereço do Bazar:<br>AV DR LINO DE MORAIS LEME, 1.126 - VILA MASCOTE</p>
+    </div>
+  </footer>
+
+  <!-- main.js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
